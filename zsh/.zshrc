@@ -29,3 +29,7 @@ alias ls='ls -p --color=tty' # ls with files outlined
 alias ll='ls -lh' # ls as list and human readable
 alias la='ls -lah' # ls with dotfiles
 alias lt='du -sh * | sort -h' # print directory with storage
+
+alias pokemon='pokemon-colorscripts' # https://gitlab.com/phoneybadger/pokemon-colorscripts
+
+pokemon-colorscripts -r
