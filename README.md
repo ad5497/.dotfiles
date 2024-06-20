@@ -1,6 +1,6 @@
 # My dotfiles
 
-This directory contains the dotfiles for my system
+This directory contains the dotfiles for my system that my managed using GNU Stow
 
 ## Requirements
 
@@ -8,24 +8,24 @@ Ensure you have the following installed on your system
 
 ### Git
 
-On Arch Linux,
+On Arch Linux
 ```
 pacman -S git
 ```
 
-On OSX,
+On OSX
 ```
 brew install git
 ```
 
 ### Stow
 
-On Arch Linux,
+On Arch Linux
 ```
 pacman -S stow 
 ```
 
-On OSX,
+On OSX
 ```
 brew install stow
 ```
