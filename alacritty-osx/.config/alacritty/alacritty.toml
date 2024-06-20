@@ -1,0 +1,26 @@
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding = { x = 5, y = 5 }
+
+decorations = "Buttonless"
+
+opacity = 0.8
+
+dynamic_title = true
+
+option_as_alt = "Both"
+
+[font]
+# brew install font-meslo-lg-nerd-font
+normal.family = "MesloLGS Nerd Font Mono"
+size = 13
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+
+[colors.primary]
+background = "#000000"
+foreground = "#c7c7c7"
