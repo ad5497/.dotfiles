@@ -9,6 +9,7 @@ setopt HIST_FIND_NO_DUPS # ignore duplicates when searching
 setopt HIST_IGNORE_DUPS # do not enter command into history is duplicate of previous
 setopt HIST_REDUCE_BLANKS # remove blank lines from history
 setopt HIST_VERIFY # https://zsh.sourceforge.io/Doc/Release/Options.html
+setopt GLOBDOTS # let files beginning with . be matched without explicit specification
 
 bindkey -v # vi mode
 bindkey '^]]A' up-line-or-search # arrow history up-search
@@ -29,6 +30,7 @@ alias ls='ls -p --color=tty' # ls with files outlined
 alias ll='ls -lh' # ls as list and human readable
 alias la='ls -lah' # ls with dotfiles
 alias lt='du -sh * | sort -h' # print directory with storage
+alias lc='ls -1 | wc -l' # count number of files in directory
 
 alias pokemon='pokemon-colorscripts' # https://gitlab.com/phoneybadger/pokemon-colorscripts
 
