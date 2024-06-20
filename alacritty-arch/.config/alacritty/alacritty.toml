@@ -1,0 +1,44 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+dimensions = { columns = 85, lines = 25 }
+padding = { x = 5, y = 5 }
+opacity = 0.8
+startup_mode = "Maximized"
+
+[font]
+size = 18
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+
+[terminal]
+osc52 = "CopyPaste"
+
+# Default colors
+[colors.primary]
+background = "#000000"
+foreground = "#c7c7c7"
+
+# Normal colors
+# [colors.normal]
+# black   = "#2e2e2e"
+# red     = "#b83019"
+# green   = "#51bf37"
+# yellow  = "#c6c43d"
+# blue    = "#0c24bf"
+# magenta = "#b93ec1"
+# cyan    = "#53c2c5"
+# white   = "#e5e9f0"
+
+# Bright colors
+# [colors.bright]
+# black   = "#676767"
+# red     = "#ef766d"
+# green   = "#8cf67a"
+# yellow  = "#fefb7e"
+# blue    = "#6a71f6"
+# magenta = "#f07ef8"
+# cyan    = "#8ef9fd"
+# white   = "#feffff"
