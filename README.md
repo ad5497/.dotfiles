@@ -1,6 +1,6 @@
 # My dotfiles
 
-This directory contains the dotfiles for my system that my managed using GNU Stow
+This directory contains the dotfiles for my system that are managed using GNU Stow
 
 ## Requirements
 
@@ -39,8 +39,8 @@ $ git clone git@github.com/ad5497/dotfiles.git
 $ cd dotfiles
 ```
 
-then use GNU stow to create symlinks
+The subdirectories allow you to specify which applications to set up dotfiles for. We can then use GNU stow to create symlinks for the application corresponding to the subdirectory name
 
 ```
-stow <directory-name>
+stow <subdirectory-name>
 ```
