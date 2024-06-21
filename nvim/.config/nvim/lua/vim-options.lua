@@ -32,3 +32,10 @@ opt.swapfile = false
 
 --set leader
 vim.g.mapleader = " "
+
+-- reset terminal cursor to underscore when exiting nvim
+vim.api.nvim_create_autocmd("ExitPre", {
+	group = vim.api.nvim_create_augroup("Exit", { clear = true }),
+	command = "set guicursor=n-ci:hor30-iCursor-blinkwait300-blinkon200-blinkoff150",
+	desc = "Set cursor back to beam when leaving Neovim."
+}) 
