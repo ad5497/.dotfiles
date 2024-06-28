@@ -4,9 +4,23 @@ return {
   config = function()
     local config = require("nvim-treesitter.configs")
     config.setup({
-      ensure_installed = { "c", "lua", "vim", "javascript", "html", "java", "python" }, -- ensure the correct language parsers are installed in treesitter
+      auto_install = true, 
+      ensure_installed = {
+        "bash",
+        "c",
+        "html",
+        "java",
+        "javascript",
+        "lua",
+        "markdown",
+        "markdown_inline",
+        "python",
+        "query",
+        "vim",
+        "vimdoc"
+      },
       highlight = { enable = true }, 
       indent = { enable = true }, 
-    })
+    }) 
   end
 }
