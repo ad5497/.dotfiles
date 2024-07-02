@@ -16,3 +16,6 @@ local opts = {}
 
 require("vim-options")
 require("lazy").setup("plugins", opts)
+
+vim.cmd("highlight Normal guibg=none")
+
