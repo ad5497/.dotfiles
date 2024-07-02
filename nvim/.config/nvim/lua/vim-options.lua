@@ -9,11 +9,13 @@ vim.g.maplocalleader = " "
 vim.opt.relativenumber = true
 vim.opt.number = true
 
+-- Don't show the mode, since it's already in the status line (lua-line plugin)
+vim.opt.showmode = false
+
 -- Tab & indentation settings
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
-vim.opt.autoindent = true
 
 -- Line wrap settings
 vim.opt.wrap = true
