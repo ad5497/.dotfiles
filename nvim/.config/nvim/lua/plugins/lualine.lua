@@ -5,7 +5,7 @@ return {
 			options = {
 				theme = "nord", -- theme = "dracula", -- for catppuccin
 
-				section_separators = { left = "▌", right = "▐" },
+				section_separators = "",
 				component_separators = "│",
 			},
 
