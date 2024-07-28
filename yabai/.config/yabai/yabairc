@@ -63,6 +63,7 @@ yabai -m rule --add app="AppCleaner"            manage=off
 yabai -m rule --add app="App Store"             manage=off
 yabai -m rule --add app="Archive Utility"       manage=off
 yabai -m rule --add app="Bloons TD Battles"     manage=off
+yabai -m rule --add app="Books"                 manage=off
 yabai -m rule --add app="Calculator"            manage=off
 yabai -m rule --add app="Desk View"             manage=off
 yabai -m rule --add app="DesktopLauncher"       manage=off
@@ -81,6 +82,7 @@ yabai -m rule --add app="Steam"                 manage=off
 yabai -m rule --add app="Stickies"              manage=off
 yabai -m rule --add app="System Settings"       manage=off
 yabai -m rule --add app="Terraria"              manage=off
+yabai -m rule --add app="VLC media player"      manage=off
 yabai -m rule --add app="Weather"               manage=off
 
 # highlight the focused window
