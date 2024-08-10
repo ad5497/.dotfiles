@@ -25,6 +25,7 @@ setopt HIST_VERIFY            # do not execute immediately upon history expansio
 # +--------+
 
 PROMPT="%B[%n@%m %1~]%b %# "
+RPROMPT='%B%*%b' # display time on right prompt
 
 # +---------+
 # | BINDING |
