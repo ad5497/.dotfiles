@@ -60,4 +60,26 @@ alias lc='ls -1 | wc -l'      # count number of files in directory
 
 alias pokemon='pokemon-colorscripts' # https://gitlab.com/phoneybadger/pokemon-colorscripts
 
+# +-----------+
+# | FUNCTIONS |
+# +-----------+
+
+function zle-keymap-select { # Change cursor shape depending on vi mode
+  if [[ $KEYMAP == vicmd ]]; then
+    echo -ne '\e[1 q' # block cursor in normal mode
+  else
+    echo -ne '\e[4 q' # underline cursor in insert mode
+  fi
+}
+
+zle -N zle-keymap-select
+zle-line-init() {
+  echo -ne '\e[4 q' # start with underline cursor (insert mode)
+}
+zle -N zle-line-init
+
+# +---------------+
+# | RUN COMMMANDS |
+# +---------------+
+
 pokemon-colorscripts -r
