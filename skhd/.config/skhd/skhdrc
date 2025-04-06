@@ -107,10 +107,10 @@ alt - p : yabai -m window --toggle sticky --toggle pip
 # +-----------------+
 
 # open terminal, alacritty at the moment
-cmd - return : open -na /Applications/Alacritty.app
+shift + cmd - return : open -na /Applications/Alacritty.app
 
 # open finder
-shift + cmd - return : open ~/
+shift + alt - return : open ~/
 
 # open alacritty
 shift + ctrl - a : open -na /Applications/Alacritty.app
