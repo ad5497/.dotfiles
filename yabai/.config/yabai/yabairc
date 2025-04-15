@@ -65,11 +65,13 @@ yabai -m rule --add app="Archive Utility"       manage=off
 yabai -m rule --add app="Bloons TD Battles"     manage=off
 yabai -m rule --add app="Books"                 manage=off
 yabai -m rule --add app="Calculator"            manage=off
+yabai -m rule --add app="Cemu.*"                  manage=off
 yabai -m rule --add app="Desk View"             manage=off
 yabai -m rule --add app="DesktopLauncher"       manage=off
 yabai -m rule --add app="FaceTime"              manage=off
 yabai -m rule --add app="IINA"                  manage=off
 yabai -m rule --add app="Image2icon"            manage=off
+yabai -m rule --add app="League of Legends"            manage=off
 yabai -m rule --add app="Logitech G HUB"        manage=off
 yabai -m rule --add app="Minecraft"             manage=off
 yabai -m rule --add app="Minecraft Launcher"    manage=off
@@ -78,6 +80,8 @@ yabai -m rule --add app="Molar"                 manage=off
 yabai -m rule --add app="NordVPN"               manage=off
 yabai -m rule --add app="OpenEmu"               manage=off
 yabai -m rule --add app="QuickTime Player"      manage=off
+yabai -m rule --add app="Riot Client"            manage=off
+yabai -m rule --add app="^Ryujinx.*"            manage=off
 yabai -m rule --add app="Steam"                 manage=off
 yabai -m rule --add app="Stickies"              manage=off
 yabai -m rule --add app="System Settings"       manage=off
@@ -87,5 +91,5 @@ yabai -m rule --add app="Weather"               manage=off
 
 # highlight the focused window
 # https://www.github.com/FelixKratz/JankyBorders
-borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=4.0 &
+# borders active_color=0xffe1e3e4 inactive_color=0xff494d64 width=4.0 &
 
