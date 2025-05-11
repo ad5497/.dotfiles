@@ -54,8 +54,8 @@ alt - n : yabai -m space --focus next
 alt - p : yabai -m space --focus prev
 
 # send window to desktop and follow focus   # --  ISSUE: following focus to desktops doesn't work with SIP
-shift + alt - n : yabai -m window --space next; yabai -m space --focus next
-shift + alt - p : yabai -m window --space prev; yabai -m space --focus prev
+shift + alt - n : yabai -m window --space next # ; yabai -m space --focus next
+shift + alt - p : yabai -m window --space prev # ; yabai -m space --focus prev
 
 # focus monitor
 alt - g : yabai -m display --focus east
@@ -107,7 +107,7 @@ alt - p : yabai -m window --toggle sticky --toggle pip
 # +-----------------+
 
 # open terminal, alacritty at the moment
-shift + cmd - return : open -na /Applications/Alacritty.app
+shift + cmd - return : open -na /Applications/Ghostty.app
 
 # open finder
 shift + alt - return : open ~/

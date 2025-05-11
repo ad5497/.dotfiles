@@ -109,7 +109,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 vim.api.nvim_create_autocmd("FileType", {
   desc = "Enable specific options & key mappings for text-like files",
   group = vim.api.nvim_create_augroup("TextFileOptions", { clear = true }),
-  pattern = { "text", "markdown", "latex", "plaintex", "rst", "asciidoc" },
+  pattern = { "text", "md", "markdown", "latex", "plaintex", "rst", "asciidoc" },
   callback = function()
     vim.opt_local.wrap = true
     vim.opt_local.linebreak = true
